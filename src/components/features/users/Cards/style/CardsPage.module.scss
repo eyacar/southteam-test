@@ -1,0 +1,16 @@
+.container {
+  display: grid;
+  width: 900px;
+  margin: auto;
+  grid-template-columns: repeat(3, 300px);
+
+  @media (max-width: 900px) {
+    width: 600px;
+    grid-template-columns: repeat(2, 300px);
+  }
+
+  @media (max-width: 600px) {
+    width: 300px;
+    grid-template-columns: repeat(1, 300px);
+  }
+}

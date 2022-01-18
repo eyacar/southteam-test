@@ -1,0 +1,9 @@
+.container {
+  margin-top: 10px;
+  &__title {
+    margin: 30px;
+  }
+  &__description {
+    margin-bottom: 50px;
+  }
+}
